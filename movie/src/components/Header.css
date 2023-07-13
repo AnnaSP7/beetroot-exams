@@ -1,0 +1,85 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #001219;
+    align-items: center;
+}
+
+nav h1{
+    color: #fff;
+    margin-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav span{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: .85rem;
+    text-transform: uppercase;
+}
+
+nav span:hover{
+    color: #fff;
+    border-bottom: 2px solid #EE9B00;
+    padding-bottom: 5px;
+}
+
+.nav-options{
+    display: flex;
+    align-items: center;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+}
+
+.input-group input{
+    position: relative;
+    width: 323px;
+    height: 4vh;
+    border-radius: 16px;
+    border: none;
+    margin-right: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .input-group input {
+        width: 200px;
+    }
+}
+
+.input-group input[type='text']{
+    padding-left: 17px;
+    font-size: 1rem;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .input-group input[type='text'] {
+        padding-left: 12px;
+        font-size: 13px;
+    }
+}
+
+.input-group input::placeholder{
+    color: black;
+}
+
+.input-group input:focus{
+    outline: none;
+}
+
+#search{
+    position: absolute;
+    margin-left: 310px;
+} 
+
+@media screen and (max-width: 1024px) {
+    #search {
+        margin-left: 185px;
+    }
+}
